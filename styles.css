@@ -109,6 +109,29 @@ video{
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+
+    img{
+        width: 200px;
+    }
+
+    .input-left, .inpunt-right{
+        Width: 115px;
+        Height: 30px;
+    }
     
+    botton{
+        width: 100px;
+        height: 30px;
+
+    }
+
+    section{
+        height: 30rem;
+        width: 20rem;
+    }
+
+    h2{
+        font-size: 22px;
+    }
 }
